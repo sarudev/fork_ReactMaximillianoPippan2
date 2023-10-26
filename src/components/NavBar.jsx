@@ -11,6 +11,7 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand><LogoWidget /></Navbar.Brand>
           <Nav className="me-auto">
+            <Nav.Link><a href="#">Si apretas la ruedita del mouse arriba nuestro nos abris:</a></Nav.Link>
             <Nav.Link><a href="https://pathsofpain97.github.io/JavaScriptMaximillianoPippan4.github.io/">Productos</a></Nav.Link>
             <Nav.Link><a href="https://pathsofpain97.github.io/PokedexSpanish97.github.io/">PokeApi</a></Nav.Link>
           </Nav>

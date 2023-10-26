@@ -4,7 +4,7 @@ export const LogoWidget = () => {
 
     return (
     <>
-    <img src={logo} alt="Logo" width={240} />
+    <img src={logo} alt="Logo" width={230} />
     </>
     );
 };
