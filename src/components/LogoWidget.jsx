@@ -1,10 +1,4 @@
 import logo from '../assets/logo.jpg'
 
-export const LogoWidget = () => {
+export const LogoWidget = () => <img src={logo} alt="Logo" width={230} />
 
-    return (
-    <>
-    <img src={logo} alt="Logo" width={230} />
-    </>
-    );
-};
