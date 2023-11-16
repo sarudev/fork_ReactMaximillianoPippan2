@@ -1,0 +1,12 @@
+.hamburger-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger {
+  width: max-content;
+  height: max-content;
+}

@@ -9,18 +9,18 @@ import { DetailsProduct } from "./pages/DetailsProduct";
 
 function App() {
   return (
-  <>
-  <BrowserRouter>
-  <NavBar />
-    <Routes>
-      <Route path="/" element={<ItemListContainer greeting="Productos"/>} />
-      <Route path="/category/:id" element={<ItemListContainer greeting="Productos"/>} />
-      <Route path="/items/:id" element={<DetailsProduct />} />
-      <Route path="*" element={<Error404></Error404>} />
-    </Routes>
-  </BrowserRouter>
-  {/* <ItemListContainer greeting="¿También guardas hilos adentro de una lata de Royal Dansk?" /> */}
-  </>
+    <>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<ItemListContainer greeting="Productos"/>} />
+          <Route path="/category/:id" element={<ItemListContainer greeting="Productos"/>} />
+          <Route path="/items/:id" element={<DetailsProduct />} />
+          <Route path="*" element={<Error404></Error404>} />
+        </Routes>
+      </BrowserRouter>
+      {/* <ItemListContainer greeting="¿También guardas hilos adentro de una lata de Royal Dansk?" /> */}
+    </>
   );
 }
 
